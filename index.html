@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Any.do</title>
+
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		<meta name="description" content="Any.do"/>
+		<meta name="author" content="Bala"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/check61.png">
+
+		<!-- Stylesheets -->
+		<link href='http://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/style.css"/> 
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.js"></script>
+		<script type="text/javascript" src="js/action-practice.js"></script>
+	
+	</head>
+	<body>
+		<section class="left">
+			<header>
+				<a href="index.html" class="logo"></a>
+				<h1>Any.do</h1>
+			</header>
+			<div class="count-container">
+				<hr>
+				<p class="count"><span id="do">0</span> DO</p>
+				<hr>
+				<p class="count"><span id="done">0</span> DONE</p>
+				<hr>
+				<p class="count"><span id="total">0</span> TOTAL</p>
+				<hr>
+			</div>
+			<footer>
+				<p>Crafted with <span class="love"> &#9829; </span> by <a href="#">Bala M.</a></p>
+			</footer>
+		</section>
+
+		<section class="right"> <!-- App Section -->
+			<form>
+				<input type="text" name="newItem" id="newItem" class="textBox" autocomplete="off" placeholder="Type here.." required/>
+			</form>
+			
+			<ul id="list">
+				<li class="listitem">
+					<span class="item">Tap to check off.</span>
+					<div class="delete"></div>
+				</li>
+				<li class="listitem checked">
+					<span class="item">I 'm checked off.</span>
+					<div class="delete"></div>
+				</li>
+				<li class="listitem">
+					<span class="item">Tap &amp; Drag me.</span>
+					<div class="delete"></div>
+				</li>
+				<li class="listitem">
+					<span class="item">Tap X &amp; I'll be gone.</span>
+					<div class="delete"></div>
+				</li>
+
+			</ul>
+
+			
+
+		</section>
+	</body>
+</html>
